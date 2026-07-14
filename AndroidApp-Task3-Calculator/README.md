@@ -24,12 +24,13 @@ A simple Calculator App developed using Java and XML in Android Studio as part o
 ## Screenshots
 
 ### Home Screen
-<img width="717" height="1600" alt="home calc" src="https://github.com/user-attachments/assets/120d0e12-c134-4dd2-86ae-1b2f0e22882f" />
+
+<img width="720" height="1280" alt="Screenshot_20260714_151625" src="https://github.com/user-attachments/assets/eb7b44bf-642c-401e-9e28-25149e46486a" />
 
 
 ### Calculation Example
-<img width="717" height="1600" alt="ExpCalc" src="https://github.com/user-attachments/assets/7db4965e-c218-4f6f-aa9d-a63fca1edbf6" />
 
+<img width="720" height="1280" alt="Screenshot_20260714_151656" src="https://github.com/user-attachments/assets/c09f1dc3-4ba9-4625-9613-11e34ac0bc6d" />
 
 
 ## Installation
