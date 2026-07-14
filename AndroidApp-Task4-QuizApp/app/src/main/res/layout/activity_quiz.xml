@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F172A"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/questionCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUESTION 1 OF 10"
+            android:textColor="#38BDF8"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1" />
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="What does CPU stand for?"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Select the correct answer"
+            android:textColor="#94A3B8"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="#1E293B"
+            android:text="Central Processing Unit"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#1E293B"
+            android:text="Computer Processing Unit"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#1E293B"
+            android:text="Central Program Utility"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#1E293B"
+            android:text="Computer Program Unit"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/feedbackText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0EA5E9"
+            android:enabled="false"
+            android:text="NEXT QUESTION"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
